@@ -10,3 +10,6 @@ spring:
     show-sql: true
 evn:
   test999998888888
+girl:
+  name:lala
+  age:20
