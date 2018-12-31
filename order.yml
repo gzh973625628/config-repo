@@ -13,4 +13,4 @@ spring:
   jpa:
     show-sql: true
 evn:
-  test55
+  test6s
