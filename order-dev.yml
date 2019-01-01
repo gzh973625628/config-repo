@@ -10,4 +10,4 @@ spring:
     show-sql: true
 girl:
   name: lala
-  age: 2999
+  age: 99
