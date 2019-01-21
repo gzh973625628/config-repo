@@ -1,3 +1,11 @@
 logging:
   level:
     org.springframework.cloud: debug
+zuul:
+  routes:
+    api-product:
+      path: /zuul/**
+      serviceId: product
+      sensitiveHeaders:
+  ignored-patterns:
+    - /**/product/listForOrder
